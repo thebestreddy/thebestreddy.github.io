@@ -1,0 +1,103 @@
+/* Global Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: #007bff;
+}
+
+/* Header Styles */
+
+header {
+	background: #333;
+	color: #fff;
+	padding: 20px 0;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#branding h1 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+#branding h1 .highlight {
+	color: #007bff;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	padding: 8px 0;
+}
+
+nav a:hover {
+	color: #007bff;
+}
+
+nav a.current {
+	color: #007bff;
+}
+
+/* Main Section Styles */
+
+#main {
+	margin-top: 20px;
+}
+
+#main .container {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#main .page-title {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+#main p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+	background: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.8em;
+	margin: 0;
+}
