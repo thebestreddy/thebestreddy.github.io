@@ -35,10 +35,16 @@ nav ul li {
 nav a {
   text-decoration: none;
   color: black;
+  border-bottom: 1px solid blue;
+  padding-bottom: 2px;
+  transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
   color: blue;
+  border-bottom: 2px solid blue;
+  padding-bottom: 3px;
+  transition: all 0.2s ease-in-out;
 }
 
 main {
@@ -76,6 +82,33 @@ article img {
   margin-right: 10px;
 }
 
+.category-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-list li {
+  margin-bottom: 10px;
+}
+
+.category-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid blue;
+  padding-bottom: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.category-list a:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+  padding-bottom: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
 footer {
   background-color: #f2f2f2;
   padding: 10px;
@@ -104,26 +137,5 @@ footer a {
 }
 
 footer a:hover {
-  color: blue;
-}
-
-.category-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.category-list li {
-  margin-bottom: 10px;
-}
-
-.category-list a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.category-list a:hover {
   color: blue;
 }
