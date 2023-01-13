@@ -1,169 +1,129 @@
 /* The Critique Stylesheet */
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    box-shadow: 0px 2px 2px #ccc;
-    width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
-    margin: 0;
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: 600;
-    color: #000;
+  margin: 0;
 }
 
-header nav {
-    text-align: center;
+nav {
+  display: flex;
 }
 
-header nav ul {
-    list-style-type: none;
-    margin: 20px 0 0 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-header nav ul li {
-    margin-right: 20px;
+nav ul li {
+  margin-right: 20px;
 }
 
-header nav a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: 500;
-    padding: 10px;
-    transition: all 0.3s ease;
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
-header nav a:hover {
-    color: #fff;
-    background-color: #00b3b3;
-    border-radius: 10px;
+nav a:hover {
+  color: blue;
 }
 
 main {
-    padding: 20px;
-    margin-top: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+  padding: 20px;
 }
 
-main article {
-    margin-bottom: 50px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0px 2px 2px #ccc;
-    border-radius: 10px;
-    text-align: justify;
-    flex-grow: 1;
-    width: 100%;
-    margin-right: 10px;
+article {
+  margin-bottom: 20px;
 }
 
-main article img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+article img {
+  width: 100%;
 }
 
-main article h3{
-    font-size: 1.5em;
-    font-weight: 600;
-    color: #000;
-    margin-bottom: 20px;
+.author {
+  font-style: italic;
+  margin-top: 10px;
 }
 
-main article p {
-    font-size: 1.2em;
-    color: #444;
-    line-height: 1.5;
-    margin-bottom: 20px;
+.date {
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #666;
 }
 
-main article .author{
-    text-align: right;
-    font-size: 1.2em;
-    color: #444;
-    margin-bottom: 20px;
+.categories {
+  font-size: 0.8em;
+  margin-top: 10px;
+  color: #666;
 }
 
-main article .date{
-    text-align: right;
-    font-size: 1.2em;
-    color: #444;
-    margin-bottom: 20px;
-}
-
-main article .categories {
-    text-align: left;
-    font-size: 1.2em;
-    color: #444;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    position: relative;
-    top: -20px;
-}
-
-main article .categories a{
-    color: #00b3b3;
-    margin-right: 5px;
-    text-decoration: none;
+.categories a {
+  text-decoration: none;
+  color: #666;
+  margin-right: 10px;
 }
 
 footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-    margin-top: 50px;
-    width: 100%;
-    position: relative;
-    bottom: 0;
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer p {
-    margin: 0;
-    font-size: 1.2em;
-    color: #444;
+  margin: 0;
 }
 
 footer ul {
-    list-style-type: none;
-    margin: 20px 0 0 0;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 footer ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 footer a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: 500;
-    padding: 10px;
-    transition: all 0.3s ease;
+  text-decoration: none;
+  color: black;
 }
 
 footer a:hover {
-    color: #fff;
-    background-color: #00b3b3;
-    border-radius: 10px;
+  color: blue;
+}
+
+.category-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-list li {
+  margin-bottom: 10px;
+}
+
+.category-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.category-list a:hover {
+  color: blue;
 }
