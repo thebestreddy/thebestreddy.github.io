@@ -14,6 +14,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1;
+    top: 0;
 }
 
 header h1 {
@@ -95,8 +96,7 @@ main article p {
 
 main article .author{
     text-align: right;
-    font-size:
-    1.2em;
+    font-size: 1.2em;
     color: #444;
     margin-bottom: 20px;
 }
@@ -124,31 +124,12 @@ main article .categories a{
     text-decoration: none;
 }
 
-main #about-us {
-    margin-top: 50px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0px 2px 2px #ccc;
-    border-radius: 10px;
-    text-align: justify;
-    flex-grow: 1;
-}
-
-main #about-us h2{
-    font-size: 2em;
-    font-weight: 600;
-    color: #000;
-    text-align: center;
-}
-
 footer {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
     margin-top: 50px;
+    width: 100%;
 }
 
 footer p {
