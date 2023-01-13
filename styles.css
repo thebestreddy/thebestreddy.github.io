@@ -1,19 +1,27 @@
 /* The Critique Stylesheet */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f1f1f1;
 }
 
 header {
     background-color: #f2f2f2;
     padding: 20px;
+    box-shadow: 0px 2px 2px #ccc;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 header h1 {
     margin: 0;
     text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #000;
 }
 
 header nav {
@@ -22,63 +30,104 @@ header nav {
 
 header nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 header nav a {
     color: #333;
     text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px;
+    transition: all 0.3s ease;
 }
 
 header nav a:hover {
-    color: #00b3b3;
+    color: #fff;
+    background-color: #00b3b3;
+    border-radius: 10px;
 }
 
 main {
     padding: 20px;
+    margin-top: 80px;
 }
 
 main h2 {
     margin-top: 50px;
+    font-size: 2em;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
 }
 
 main article {
     margin-bottom: 50px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 2px #ccc;
+    border-radius: 10px;
+}
+
+main article h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+main article p {
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.5;
 }
 
 footer {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
     margin: 0;
+    font-size: 1.2em;
+    color: #444;
 }
 
 footer ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 footer ul li {
-    display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 footer a {
     color: #333;
     text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px;
+    transition: all 0.3s ease;
 }
 
 footer a:hover {
-    color: #00b3b3;
+    color: #fff;
+    background-color: #00b3b3;
+    border-radius: 10px;
 }
