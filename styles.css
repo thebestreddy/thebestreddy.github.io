@@ -4,6 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
@@ -19,6 +21,7 @@ header h1 {
 
 nav {
   display: flex;
+  justify-content: center;
 }
 
 nav ul {
@@ -26,6 +29,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 nav ul li {
@@ -49,18 +53,18 @@ nav a:hover {
 
 main {
   padding: 20px;
+  text-align: center;
 }
 
 article {
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 article img {
   width: 100%;
-}
-
-#index{
-  max-width: 50%;
 }
 
 .author {
@@ -90,6 +94,7 @@ article img {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .category-list li {
@@ -104,6 +109,7 @@ article img {
   border-bottom: 1px solid blue;
   padding-bottom: 2px;
   transition: all 0.2s ease-in-out;
+  display: inline-block;
 }
 
 .category-list a:hover {
@@ -118,6 +124,7 @@ footer {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer p {
@@ -129,6 +136,7 @@ footer ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 footer ul li {
