@@ -60,6 +60,11 @@ article img {
   height: auto;
 }
 
+#index{
+  width: 50%;
+  height: auto;
+}
+
 .author {
   font-style: italic;
   margin-top: 10px;
