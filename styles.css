@@ -65,7 +65,7 @@ article {
 }
 
 article img {
-  width: 80%;
+  max-width: 80%;
 }
 
 .author {
