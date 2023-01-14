@@ -56,13 +56,11 @@ article {
 }
 
 article img {
-  width: 50%;
-  height: auto;
+  width: 100%;
 }
 
 #index{
-  width: 50%;
-  height: auto;
+  max-width: 50%;
 }
 
 .author {
