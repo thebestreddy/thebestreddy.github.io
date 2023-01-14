@@ -61,10 +61,11 @@ article {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 20px;
 }
 
 article img {
-  width: 100%;
+  width: 80%;
 }
 
 .author {
